@@ -20,7 +20,7 @@ function initializeSession() {
     session.subscribe(event.stream, 'subscriber', {
       insertMode: 'append',
       width: '100%',
-      height: '50rem'
+      height: '100%'
     }, handleError);
   });
 
@@ -28,7 +28,7 @@ function initializeSession() {
   var publisher = OT.initPublisher('publisher', {
     insertMode: 'append',
     width: '100%',
-    height: '50rem'
+    height: '100%'
   }, handleError);
 
   // Connect to the session
