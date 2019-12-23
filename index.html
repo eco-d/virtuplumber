@@ -1,56 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Virtuplumber</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Amiri|Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title> OpenTok Getting Started </title>
+    <link href="html.css" rel="stylesheet" type="text/css">
+    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
 </head>
+<body>
 
-<body class = "hi-level">
-  <div class="header">
-    <a href="https://www.ecoplumbers.com/" target="_blank"><img class = "banner-logo" src="imgs/eco-logo.png" alt="eco-plumbers-logo"></a>
-  </div>
+    <div id="videos">
+        <div id="subscriber"></div>
+        <div id="publisher"></div>
+    </div>
 
-  <div class="main-video">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-          <div id="otEmbedContainer" style="width:800px; height:640px"></div>
-          </div>
-        <div class="col-1"></div>
-      </div>
-    </div> -->
-
-    <!-- Little too tall on smartphone sized window, otherwise okay -->
-    <div id="otEmbedContainer" style="width:100%; height:40rem"></div>
-
-  </div>
-
-  <div class="footer">
-    <p><a class="hotlink" target="_blank" href="https://www.ecoplumbers.com/">Ecoplumbers Website</a></p>
-    <p class = "legal">© The Ecoplumbers 2019</p>
-  </div>
-
-  <!-- Javascript -->
-
-  <!-- Specifically For the Video Chat -->
-  <script src="https://tokbox.com/embed/embed/ot-embed.js?embedId=827fb8d3-69fc-492a-8127-96a3a1b53018&room=DEFAULT_ROOM"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  <!-- JQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- JavaScript Doc -->
-  <script src="index.js" charset="utf-8"></script>
-
+    <script type="text/javascript" src="index.js"></script>
 </body>
-
 </html>
