@@ -1,7 +1,7 @@
 // replace these values with those generated in your TokBox Account
 var apiKey = "46482492";
 var sessionId = "1_MX40NjQ4MjQ5Mn5-MTU3NzM5MDQ2MjcwMX52WExMZGY1bnFiYzlINWNpcGJZcEwvRDB-fg";
-var token = "T1==cGFydG5lcl9pZD00NjQ4MjQ5MiZzaWc9ZTA4NjhmZDExYTRjNTljYzA0MTFhMjY3ODk5NGE4Y2NkOTE5M2NjZjpzZXNzaW9uX2lkPTFfTVg0ME5qUTRNalE1TW41LU1UVTNOek01TURRMk1qY3dNWDUyV0V4TVpHWTFibkZpWXpsSU5XTnBjR0paY0V3dlJEQi1mZyZjcmVhdGVfdGltZT0xNTc3MzkwNTAxJm5vbmNlPTAuNjYzMjk0MTQ1MjM5Mjc0JnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE1Nzc0MTIxMDAmaW5pdGlhbF9sYXlvdXRfY2xhc3NfbGlzdD0=";
+var token = "T1==cGFydG5lcl9pZD00NjQ4MjQ5MiZzaWc9MDdhMjZlZDUzOTY5ZTYyYzQzMWE2MzgxNWM0ZTBhNmE1NmNhNGUyZDpzZXNzaW9uX2lkPTFfTVg0ME5qUTRNalE1TW41LU1UVTNOek01TURRMk1qY3dNWDUyV0V4TVpHWTFibkZpWXpsSU5XTnBjR0paY0V3dlJEQi1mZyZjcmVhdGVfdGltZT0xNTc3MzkwNjk1Jm5vbmNlPTAuOTk1NjM1OTA2MzkyNzk5MSZyb2xlPXN1YnNjcmliZXImZXhwaXJlX3RpbWU9MTU3NzQxMjI5NCZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==";
 
 // (optional) add server code here
     // var SERVER_BASE_URL = 'https://virtplumber.herokuapp.com'; //'http://localhost:8080/room';
