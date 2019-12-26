@@ -46,19 +46,19 @@ function initializeSession() {
 //
 
 
-$("#shrinkSelf").click(function(shS) {
+$("#shrinkSelf").click(function() {
   $(".self").toggleClass('col-lg-6 col-lg-4');
 });
 
-hS = $("#hideSelf").click(function(hS) {
+hS = $("#hideSelf").click(function() {
 
 });
 
-shP = $("#shrinkPart").click(function(shP) {
+shP = $("#shrinkPart").click(function() {
   $(".partner").toggleClass('col-lg-6 col-lg-4');
 });
 
-hP = $("#hidePart").click(function(hP) {
+hP = $("#hidePart").click(function() {
 
 });
 
