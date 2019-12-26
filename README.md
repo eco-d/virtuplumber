@@ -9,3 +9,6 @@ Things to note:
 - using hardcoded subscriber key will show nothing
 - using localhost doesn't work outside of the same machine
 - can't control what heroku puts out as a key
+
+
+### current threory: the servers aren't pushing out unique tokens
