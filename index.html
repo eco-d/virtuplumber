@@ -1,48 +1,16 @@
 <html>
 <head>
-    <title> VirtuPlumber BASIC TEST </title>
-    <link href="html.css" rel="stylesheet" type="text/css">
+    <title> OpenTok Getting Started </title>
+    <link href="app.css" rel="stylesheet" type="text/css">
     <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 </head>
 <body>
-    <!-- As a heading -->
-  <nav class="navbar navbar-light bg-light">
-    <span class="navbar-brand mb-0 h1">Virtual Plumber</span>
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button id="shrinkSelf" type="button" class="btn btn-primary">Shrink Self</button>
-      <button id="hideSelf" type="button" class="btn btn-primary">Hide Self</button>
-      <button id="shrinkPart" type="button" class="btn btn-warning">Shrink Partner</button>
-      <button id="hidePart" type="button" class="btn btn-danger">Hide Partner</button>
-    </div>
-  </nav>
 
-  <div id="videos" class = "spacr">
-    <div class="row">
-      <div id="partner" class="col-lg-6 col-sm-12 tester">
+    <div id="videos">
         <div id="subscriber"></div>
-      </div>
-      <div id="self" class="col-lg-6 col-sm-12 tester">
         <div id="publisher"></div>
-      </div>
     </div>
-  </div>
 
-
-
-
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- JS -->
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
