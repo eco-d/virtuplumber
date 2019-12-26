@@ -4,7 +4,7 @@ var sessionId = "YOUR_SESSION_ID";
 var token = "YOUR_TOKEN";
 
 // (optional) add server code here
-    var SERVER_BASE_URL = 'http://localhost:8080';
+    var SERVER_BASE_URL = 'https://virtplumber.herokuapp.com/'; //'http://localhost:8080/room';
     fetch(SERVER_BASE_URL + '/session').then(function(res) {
       return res.json();
     }).then(function(res) {
