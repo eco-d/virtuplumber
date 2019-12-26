@@ -1,18 +1,18 @@
 // replace these values with those generated in your TokBox Account
-var apiKey = "YOUR_API_KEY";
-var sessionId = "YOUR_SESSION_ID";
-var token = "YOUR_TOKEN";
+var apiKey = "46482492";
+var sessionId = "1_MX40NjQ4MjQ5Mn5-MTU3NzM5MDQ2MjcwMX52WExMZGY1bnFiYzlINWNpcGJZcEwvRDB-fg";
+var token = "T1==cGFydG5lcl9pZD00NjQ4MjQ5MiZzaWc9ZTA4NjhmZDExYTRjNTljYzA0MTFhMjY3ODk5NGE4Y2NkOTE5M2NjZjpzZXNzaW9uX2lkPTFfTVg0ME5qUTRNalE1TW41LU1UVTNOek01TURRMk1qY3dNWDUyV0V4TVpHWTFibkZpWXpsSU5XTnBjR0paY0V3dlJEQi1mZyZjcmVhdGVfdGltZT0xNTc3MzkwNTAxJm5vbmNlPTAuNjYzMjk0MTQ1MjM5Mjc0JnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE1Nzc0MTIxMDAmaW5pdGlhbF9sYXlvdXRfY2xhc3NfbGlzdD0=";
 
 // (optional) add server code here
-    var SERVER_BASE_URL = 'https://virtplumber.herokuapp.com'; //'http://localhost:8080/room';
-    fetch(SERVER_BASE_URL + '/session').then(function(res) {
-      return res.json();
-    }).then(function(res) {
-      apiKey = res.apiKey;
-      sessionId = res.sessionId;
-      token = res.token;
-      initializeSession();
-    }).catch(handleError);
+    // var SERVER_BASE_URL = 'https://virtplumber.herokuapp.com'; //'http://localhost:8080/room';
+    // fetch(SERVER_BASE_URL + '/session').then(function(res) {
+    //   return res.json();
+    // }).then(function(res) {
+    //   apiKey = res.apiKey;
+    //   sessionId = res.sessionId;
+    //   token = res.token;
+    //   initializeSession();
+    // }).catch(handleError);
 
 
 
